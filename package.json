@@ -1,10 +1,19 @@
 {
-  "name": "DEvCamper_Project",
+  "name": "devcamper_project",
   "version": "1.0.0",
-  "description": "",
+  "description": "devcamper_api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
   },
-  "private": true
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
